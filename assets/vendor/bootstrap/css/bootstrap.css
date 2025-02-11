@@ -697,6 +697,7 @@ progress {
   font-size: 0.875em;
   color: #6c757d;
 }
+
 .blockquote-footer::before {
   content: "— ";
 }
@@ -704,6 +705,7 @@ progress {
 .img-fluid {
   max-width: 100%;
   height: auto;
+  object-fit: contain;
 }
 
 .img-thumbnail {
